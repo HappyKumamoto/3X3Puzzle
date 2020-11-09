@@ -164,7 +164,7 @@ window.onload = function () {
 		tapPanel(no);
 		// 完成か否かを判定して，完成ならメッセージを表示．
 		if (clear(panels)) {
-			document.getElementById("message").innerHTML = "<p>\\おめでとうございます/<br>\\完成です！/<\/p>";
+			document.getElementById("message").innerHTML = "<p>\\おめでとうございます。/<br>\\完成です！/<\/p>";
 			context.drawImage(image, 0, 0);
 		}
 	}
@@ -191,6 +191,6 @@ window.onload = function () {
     <div id="message"><p class="text">3X3パズルです。5秒後に画像がシャッフルされます。</p></div>
     <canvas id="puzzle_canvas" width="320" height="320"></canvas>
     <img class="image" src= "imgs/002.png" alt="できあがり図">
-    <p class="text">画像は首里城モザイクアートをお借りしました．</p>
+    <p class="text">画像は首里城モザイクアートをお借りしました。</p>
 </body>
 </html>
